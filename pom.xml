@@ -103,6 +103,7 @@
                 </configuration>
             </plugin>
         </plugins>
+        <finalName>demo-soap-client</finalName>
     </build>
 
 </project>
