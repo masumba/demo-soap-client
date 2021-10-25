@@ -14,5 +14,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - name: Provide permission to run mvnw
+      run: chmod +x mvnw
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag my-demo-soap-client:$(date +%s)
