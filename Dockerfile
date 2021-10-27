@@ -1,4 +1,4 @@
 FROM openjdk:8-jdk-alpine
-ADD target/care-coop-sync.jar care-coop-sync.jar
+ADD target/demo-soap-client.jar demo-soap-client.jar
 EXPOSE 8080
-ENTRYPOINT ["java","-jar","care-coop-sync.jar"]
+ENTRYPOINT ["java","-jar","demo-soap-client.jar"]
