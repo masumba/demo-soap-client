@@ -3,4 +3,4 @@
 echo Building jar file
 mvn clean package -DskipTests
 echo Building docker container
-docker build -t spring-boot-app
+docker build -t demo-soap-client:local
